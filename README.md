@@ -4,7 +4,7 @@ This is my personal portfolio website built using the **MERN Stack** and deploye
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live site](https://madhuritgithub.github.io/react-portfolio/)
+👉 [Click here to view the live site](https://madhuritgithub.github.io/React-Portfolio2/)
 
 ## 🛠️ Tech Stack
 
