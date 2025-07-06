@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Madhuritgithub/React-Portfolio2/static/css/main.c9f4d720.css",
-    "main.js": "/Madhuritgithub/React-Portfolio2/static/js/main.5d367aac.js",
-    "index.html": "/Madhuritgithub/React-Portfolio2/index.html",
-    "main.c9f4d720.css.map": "/Madhuritgithub/React-Portfolio2/static/css/main.c9f4d720.css.map",
-    "main.5d367aac.js.map": "/Madhuritgithub/React-Portfolio2/static/js/main.5d367aac.js.map"
+    "main.css": "/React-Portfolio2/static/css/main.c9f4d720.css",
+    "main.js": "/React-Portfolio2/static/js/main.a60f9360.js",
+    "index.html": "/React-Portfolio2/index.html",
+    "main.c9f4d720.css.map": "/React-Portfolio2/static/css/main.c9f4d720.css.map",
+    "main.a60f9360.js.map": "/React-Portfolio2/static/js/main.a60f9360.js.map"
   },
   "entrypoints": [
     "static/css/main.c9f4d720.css",
-    "static/js/main.5d367aac.js"
+    "static/js/main.a60f9360.js"
   ]
 }
