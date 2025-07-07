@@ -1,7 +1,7 @@
 .contact {
   padding: 4rem 2rem;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  color: white;
+  background: #ffffff;
+  color: black;
   text-align: center;
 }
 
@@ -14,7 +14,7 @@
   font-size: 1.1rem;
   max-width: 600px;
   margin: 0 auto 2rem auto;
-  color: #ccc;
+  color:black;
 }
 
 .contact-links {

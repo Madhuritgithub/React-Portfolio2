@@ -27,13 +27,14 @@ const Home = () => {
       />
       <div className="home-container">
         <div className="home-image">
-          <img src="/image.jpg" alt="Madhu" />
+          <img src={`${process.env.PUBLIC_URL}/image.jpg`} alt="Madhu" />
+
         </div>
         <div className="home-text">
           <h1>Hi, I'm <span className="name">Madhu</span></h1>
           <h2>
             <Typewriter
-              words={['Frontend Developer 🚀']}
+              words={['Web Developer 🚀']}
               loop={Infinity}
               cursor
               cursorStyle="|"
@@ -42,7 +43,7 @@ const Home = () => {
               delaySpeed={1500}
             />
           </h2>
-          <p>I build interactive, fast and beautiful websites using modern frontend tools.</p>
+          <p>I build interactive, fast and beautiful websites using modern  tools.</p>
         </div>
       </div>
     </section>

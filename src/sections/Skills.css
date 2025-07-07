@@ -1,52 +1,109 @@
 .skills {
-  padding: 4rem 2rem;
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  color: white;
+  padding: 5rem 2rem;
+  background: #ffffff;
   text-align: center;
 }
 
+/* Main heading */
 .skills h2 {
   font-size: 2.5rem;
   margin-bottom: 3rem;
+  color: #333;
 }
 
+/* Skills grid */
 .skills-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
-  max-width: 1100px;
-  margin: auto;
 }
 
 .skills-category {
-  background-color: rgba(255, 255, 255, 0.05);
-  padding: 2rem;
+  background: #f5f5f5;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  flex: 1 1 280px;
-  transition: transform 0.3s ease;
+  padding: 1.5rem 2rem;
+  width: 280px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skills-category:hover {
-  transform: translateY(-10px);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
 }
 
 .skills-category h3 {
   font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #00e6e6;
-  text-shadow: 0 0 10px rgba(0,255,255,0.2);
+  color: #444;
+  margin-bottom: 1.2rem;
+  text-transform: capitalize;
 }
 
+/* List of skills */
 .skills-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
 }
 
+/* Individual skill badge */
 .skill-item {
-  font-size: 1.1rem;
-  padding: 0.5rem 0;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+  background: #e0e0e0;
+  color: #333;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+
+.skill-item:hover {
+  background: #d0d0d0;
+}
+
+/* Coding Platforms Section */
+.coding-platforms {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.coding-platforms h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.platforms-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+/* Each platform badge in blue */
+.platform-item {
+  background: #007bff;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+/* Link inside platform badge */
+.platform-link {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+}
+
+/* Hover for platform badge: darker blue */
+.platform-item:hover {
+  background: #0056b3;
 }

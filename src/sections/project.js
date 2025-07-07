@@ -11,21 +11,34 @@ const Projects = () => {
     },
     {
       title: 'Portfolio Website',
-      description: 'Personal portfolio built using Html,Css,Js..',
+      description: 'Personal portfolio built using Html, Css, and Js.',
       image: 'madhu.jpg',
       link: 'https://github.com/Madhuritgithub/myportfolio',
     },
     {
       title: 'Todo App (Angular)',
       description: 'A clean and functional todo list application built using Angular.',
-      image: 'image2.png', // Make sure this image is in your public/ folder
+      image: 'image2.png',
       link: 'https://github.com/Madhuritgithub/angular-todo-app',
     },
     {
+  title: 'Email OTP Verification',
+  description: 'A secure email OTP verification system built using HTML, CSS, and JavaScript.',
+  image: 'madhu3.png',
+  link: 'https://github.com/Madhuritgithub/email-otp-verification',
+},
+{
+  title: 'Portfolio Website (React)',
+  description: 'A modern, responsive portfolio website built using React and styled with CSS modules.',
+  image: 'madhu2.png', // Make sure you have an image for this in your public folder
+  link: 'https://github.com/Madhuritgithub/react-portfolio',
+},
+
+    {
       title: 'AI Mock Interview Platform (MERN)',
       description: 'AI-powered mock interview platform built with MongoDB, Express, React, and Node.js.',
-      image: 'image3.jpg', // Make sure this image is in your public/ folder
-      link: 'https://github.com/Madhuritgithub/ai-powered--interview',
+      image: 'image3.jpg',
+      link: 'https://github.com/Madhuritgithub/AI-Mock-Interview-Platform',
     },
   ];
 
@@ -35,7 +48,11 @@ const Projects = () => {
       <div className="projects-container">
         {projects.map((project, index) => (
           <div key={index} className="project-card">
-            <img src={`/${project.image}`} alt={project.title} />
+            <img
+              src={`${process.env.PUBLIC_URL}/${project.image}`}
+              alt={project.title}
+              className="project-image"
+            />
             <h3>{project.title}</h3>
             <p>{project.description}</p>
             <a href={project.link} target="_blank" rel="noreferrer">
