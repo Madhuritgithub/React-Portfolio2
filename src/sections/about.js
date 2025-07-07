@@ -17,7 +17,7 @@ const About = () => {
             I am always eager to learn new tools and frameworks to enhance my skills. My goal is to create web experiences that are intuitive, engaging, and impactful.
         </p>
 
-          <a href={`${process.env.PUBLIC_URL}/Madhu_Resume.pdf`} download>
+          <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} download>
             <button className="resume-button">Download My Resume</button>
           </a>
         </div>

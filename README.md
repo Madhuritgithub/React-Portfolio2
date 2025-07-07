@@ -1,16 +1,17 @@
 # 🌐 My Personal Portfolio
 
-This is my personal portfolio website built using the **MERN Stack** and deployed live using GitHub Pages.
+This is my personal portfolio website built using the **React** and deployed live using GitHub Pages.
 
 ## 🚀 Live Demo
 
+<<<<<<< HEAD
 👉 [Click here to view the live site](https://madhuritgithub.github.io/React-Portfolio2/)
 
+=======
+>>>>>>> c75db07 (Save local changes before rebase)
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js, Tailwind CSS (or CSS)
-- **Backend:** Node.js, Express.js (if backend used)
-- **Database:** MongoDB (if backend used)
 - **Deployment:** GitHub Pages
 
 ## 📁 Features
@@ -29,7 +30,7 @@ _Add some screenshots here if you have them_
 
 ```bash
 # Clone the repository
-git clone https://github.com/madhuritgithub/react-portfolio.git
+git clone https://github.com/madhuritgithub/react-portfolio2.git
 
 # Navigate into the directory
 cd react-portfolio
